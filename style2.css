@@ -1,0 +1,74 @@
+.container7{
+    display: flex;
+    background-color: white;
+    
+}
+body{
+    background-color: rgb(151, 145, 145);
+}
+
+
+img:hover{
+    cursor: pointer;
+}
+.container7 img{
+    height: 80px;
+}
+.fa-user-tie{
+    font-size: 30px;
+    padding-left: 800px;
+    padding-top: 25px;
+}
+
+.fa-user-tie:hover{
+    cursor: pointer;
+}
+.container7 input{
+    font-size: 20px;
+    border-radius: 20px;
+    margin-left: 50%;
+    margin-top: 25px;
+}
+
+.pro{
+    background-color: aliceblue;
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+    padding: 2px 5px 5px 8px;
+}
+.container8{
+    display: flex;
+}
+.container8 .pro{
+    margin-right: 8%;
+    margin-left: 2%;
+    
+}
+
+.progress-circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: conic-gradient(#ffffff 0% 0%, #ddd 0% 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    color: #5b5f5b;
+    margin-left: 20%;
+    margin-top: 10%;
+}
+
+#progress-value {
+    position: absolute;
+}
+h3{
+    background-color: #ddd;
+    width:max-content;
+    padding: 2px;
+    border-radius: 3px;
+    margin-top: 5%;
+}
